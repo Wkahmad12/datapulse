@@ -1,0 +1,44 @@
+# Environment
+.env
+
+# Python
+venv/
+.venv/
+airflow-venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Raw datasets
+data/*.csv
+data/*.zip
+data/*.parquet
+
+# Airflow local files
+airflow/logs/
+airflow/*.db
+airflow/*.sqlite.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+node_modules/
+dist/
